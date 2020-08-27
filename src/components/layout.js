@@ -8,9 +8,11 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import ThemeToggle from './themeToggle';
 
 import Header from "./header"
-import "./layout.css"
+// import "./layout.css"
+import '../../styles/global.css'
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -28,11 +30,17 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
+     
+            backgroundColor: 'var(--bg)',
+            color: 'var(--textNormal)',
+            transition: 'color 0.2s ease-out, background 0.2s ease-out',
+        
           margin: `0 auto`,
           maxWidth: 960,
           padding: `0 1.0875rem 1.45rem`,
         }}
       >
+        <ThemeToggle />
         <main>{children}</main>
         <footer>
           © {new Date().getFullYear()}, Built with
