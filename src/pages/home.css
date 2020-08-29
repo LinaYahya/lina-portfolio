@@ -1,0 +1,35 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 10%;
+  width: 1000px;
+
+}
+.container_bio{
+  width: 95%;
+}
+.container_bio h1{
+  color: var(--textTitle);
+}
+.container_img{
+  width: 30%;
+}
+
+/**/
+@keyframes rotate{
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+
+
+.blob-rotate-faster {
+  transition: all .3s ease 0s;
+  -webkit-animation: rotate 25s linear infinite;
+  animation: rotate 25s linear infinite;
+}

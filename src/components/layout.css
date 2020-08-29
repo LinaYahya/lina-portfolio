@@ -1,5 +1,5 @@
 html {
-  font-family: sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -683,20 +683,3 @@ input:checked + .slider:before {
 }
 
 
-/**/
-@keyframes rotate{
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(1turn);
-  }
-}
-
-
-
-.blob-rotate-faster {
-  transition: all .3s ease 0s;
-  -webkit-animation: rotate 25s linear infinite;
-  animation: rotate 25s linear infinite;
-}
