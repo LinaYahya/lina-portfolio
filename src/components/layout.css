@@ -624,7 +624,6 @@ pre tt:after {
 /* style for theme toggle */
 .switch {
   position: relative;
-  margin-left: 90%;
   display: inline-block;
   width: 50px;
   height: 24px;
@@ -681,4 +680,23 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+
+/**/
+@keyframes rotate{
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+
+
+.blob-rotate-faster {
+  transition: all .3s ease 0s;
+  -webkit-animation: rotate 25s linear infinite;
+  animation: rotate 25s linear infinite;
 }

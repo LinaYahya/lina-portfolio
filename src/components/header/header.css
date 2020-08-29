@@ -1,0 +1,21 @@
+.nav-container {
+  margin: 2% 5%;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-left {
+  justify-content: flex-start;
+  flex-grow: 1;
+}
+.nav-right {
+  justify-content: flex-end;
+}
+.nav-blue {
+  background: lightsteelblue;
+}
+
+.nav{
+  text-decoration: none;
+  padding: 0 1em;
+}
