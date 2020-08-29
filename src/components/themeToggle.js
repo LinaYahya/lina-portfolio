@@ -8,7 +8,6 @@ class ThemeToggle extends React.Component {
       <ThemeToggler >
         {({ theme, toggleTheme }) => (
           <>
-          <span style={{marginLeft: '90%'}}>Dark</span>
           <label class="switch">
             <input
               type="checkbox"
