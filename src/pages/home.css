@@ -1,22 +1,26 @@
+.home{
+  margin: 10% auto;
+  width: 85%;
+}
+
 .container{
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  margin-top: 10%;
-  width: 1000px;
-
 }
+
 .container_bio{
-  width: 95%;
+  width: 60%;
+  margin-right: 5%;
 }
 .container_bio h1{
   color: var(--textTitle);
 }
 .container_img{
-  width: 30%;
+  width: 25%;
 }
 
-/**/
+/* SVG ROTATION*/
 @keyframes rotate{
   0% {
     transform: rotate(0deg);
@@ -25,7 +29,6 @@
     transform: rotate(1turn);
   }
 }
-
 
 
 .blob-rotate-faster {
