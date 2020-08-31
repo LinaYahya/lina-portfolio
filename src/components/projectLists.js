@@ -19,10 +19,10 @@ function ProjectList() {
                 <span style={{color:'var(--textLink)'}}>{year}</span>
               </div>
               <div style={{ marginTop: "10%" }}>
-                <a href={github}>
+                <a href={github} target="blank">
                   <i class="fab fa-github"></i>
                 </a>
-                <a href={demo}>
+                <a href={demo} target="blank">
                   <i class="fas fa-link"></i>
                 </a>
               </div>
