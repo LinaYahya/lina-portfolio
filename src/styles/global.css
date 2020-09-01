@@ -5,7 +5,6 @@ body {
   --textLink: #83C5BE;
   --image: #E29578;
   --hr: hsla(0, 0%, 0%, 0.2);
-
   background-color: var(--bg);
 }
 /* #781330  #E2E5E9 #7B7978 #D3003A #A3003C #FF0051 #b8ad97 */

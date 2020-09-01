@@ -13,7 +13,6 @@ const Layout = ({ children }) => {
           color: "var(--textNormal)",
           transition: "color 0.2s ease-out, background 0.2s ease-out",
           margin: `0 auto`,
-          padding: `0 1.0875rem 1.45rem`,
         }}
       >
         <main>{children}</main>

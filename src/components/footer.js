@@ -6,18 +6,21 @@ function Footer() {
     <footer className="footer">
       <div className="footer_contact">
         <h2>
-          Get in Touch <span>👋</span>
+          Get in Touch <span role="img" aria-label="hi">👋</span>
         </h2>
         <p>
-          Feel free to email me about anything. Give some feedback? You can also
+          Feel free to email me about anything.
+          <br/>
+           Give some feedback? You can also
           reach me around the web:{" "}
-          <a href="https://github.com/LinaYahya" target="_blank">
+          <a href="https://github.com/LinaYahya" target="_blank" rel="noreferrer">
             Github
           </a>
           ,
           <a
             href="https://www.linkedin.com/in/lina-ebeid-3b95201b3/"
             target="_blank"
+            rel="noreferrer"
           >
             LinkedIn
           </a>
@@ -33,6 +36,7 @@ function Footer() {
               href="linaebe0@gmail.com"
               aria-label="linaebe0@gmail.com"
               title="Email"
+              rel="noreferrer"
             >
               <i class="fas fa-envelope"></i>
             </a>
@@ -43,6 +47,7 @@ function Footer() {
               aria-label="Visit GitHub profile"
               title="Visit GitHub profile"
               target="_blank"
+              rel="noreferrer"
             >
               <i class="fab fa-github"></i>
             </a>
@@ -53,6 +58,7 @@ function Footer() {
               aria-label="Visit LinkedIn profile"
               title="Visit LinkedIn profile"
               target="_blank"
+              rel="noreferrer"
             >
               <i class="fab fa-linkedin"></i>
             </a>
