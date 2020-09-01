@@ -4,7 +4,7 @@ import SEO from "../components/seo"
 import Technologies from "../components/technologies"
 import ProjectLists from "../components/projectLists"
 import "./home.css"
-import myPhoto from "../images/myphoto.jpg"
+import myPhoto from "../images/linaa.jpg"
 
 const IndexPage = () => (
   <Layout>
@@ -28,13 +28,6 @@ const IndexPage = () => (
           <img
             src={myPhoto}
             alt="personal"
-            style={{
-              position: "relative",
-              width: "58%",
-              left: "40px",
-              top: "-48%",
-              borderRadius: "60%",
-            }}
           />
         </div>
       </div>

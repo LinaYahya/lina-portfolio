@@ -1,28 +1,35 @@
-.home{
+.home {
   margin: 10% auto;
   width: 85%;
 }
 
-.container{
+.container {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  margin-bottom: -80px;
 }
 
-.container_bio{
+.container_bio {
   width: 60%;
   margin-right: 5%;
 }
-/* .container_bio h1{
-  color: var(--textTitle);
-} */
-.container_img{
-  width: 20%;
+
+.container_img {
+  width: 25%;
+  position: relative;
+  height: 10%;
+}
+
+.container_img img {
+  position: absolute;
+  width: 80%;
+  top: 7%;
+  border-radius: 50%;
+  left: 9%;
 }
 
 /* SVG ROTATION*/
-@keyframes rotate{
+@keyframes rotate {
   0% {
     transform: rotate(0deg);
   }
@@ -31,11 +38,8 @@
   }
 }
 
-
 .blob-rotate-faster {
-  transition: all .3s ease 0s;
+  transition: all 0.3s ease 0s;
   -webkit-animation: rotate 25s linear infinite;
   animation: rotate 25s linear infinite;
 }
-
-
