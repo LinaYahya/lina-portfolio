@@ -4,7 +4,7 @@ import "./project.css"
 
 function ProjectList() {
   return (
-    <>
+    <div className="projectPage">
       <h2>My Projects</h2>
       <ul className="project-list">
         {projects.map(
@@ -30,7 +30,7 @@ function ProjectList() {
           )
         )}
       </ul>
-    </>
+    </div>
   )
 }
 export default ProjectList
