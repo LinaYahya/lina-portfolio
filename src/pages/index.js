@@ -33,12 +33,12 @@ const IndexPage = () => (
               width: "58%",
               left: "40px",
               top: "-48%",
-              borderRadius: '60%'
+              borderRadius: "60%",
             }}
           />
         </div>
       </div>
-      <Technologies />
+      <Technologies  />
       <ProjectLists />
     </div>
   </Layout>
