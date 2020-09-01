@@ -39,7 +39,7 @@ const IndexPage = () => (
         </div>
       </div>
       <Technologies  />
-      <ProjectLists />
+      <ProjectLists more={true} />
     </div>
   </Layout>
 )

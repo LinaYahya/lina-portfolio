@@ -1,13 +1,17 @@
 import React from "react"
+import PropTypes from "prop-types"
+import {Link} from 'gatsby'
 import projects from "../data/projects"
 import "./project.css"
 
-function ProjectList() {
+function ProjectList({ more }) {
+  let list = more ? projects.slice(0,2) : projects;
+
   return (
     <div className="projectPage">
       <h2>My Projects</h2>
       <ul className="project-list">
-        {projects.map(
+        {list.map(
           ({ title, description, technologies, year, github, demo }, index) => (
             <li className="project" key={index}>
               <div style={{ width: "80%" }}>
@@ -30,7 +34,16 @@ function ProjectList() {
           )
         )}
       </ul>
+      {more && <Link style={{marginLeft: '5%'}} to="/project">more ...</Link>}
     </div>
   )
+}
+
+ProjectList.defaultProps = {
+  more: false,
+}
+
+ProjectList.propTypes = {
+  more: PropTypes.bool,
 }
 export default ProjectList
