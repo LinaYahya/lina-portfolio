@@ -67,6 +67,10 @@ function SEO({ description, lang, meta, title, link }) {
           rel: `stylesheet`,
           href: `https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css`,
         },
+        {
+          rel: `stylesheet`,
+          href: `https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap`,
+        }
       ].concat(link)}
     />
   )
