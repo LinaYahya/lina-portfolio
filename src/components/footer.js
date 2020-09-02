@@ -6,14 +6,20 @@ function Footer() {
     <footer className="footer">
       <div className="footer_contact">
         <h2>
-          Get in Touch <span role="img" aria-label="hi">👋</span>
+          Get in Touch{" "}
+          <span role="img" aria-label="hi">
+            👋
+          </span>
         </h2>
         <p>
           Feel free to email me about anything.
-          <br/>
-           Give some feedback? You can also
-          reach me around the web:{" "}
-          <a href="https://github.com/LinaYahya" target="_blank" rel="noreferrer">
+          <br />
+          Give some feedback? You can also reach me around the web:{" "}
+          <a
+            href="https://github.com/LinaYahya"
+            target="_blank"
+            rel="noreferrer"
+          >
             Github
           </a>
           ,
@@ -27,15 +33,16 @@ function Footer() {
         </p>
       </div>
       <div className="footer_icon">
-        <span aria-label="Copyright">
+        <p aria-label="Copyright" >
           © 2020 Lina Ebeid. All Rights Reserved.
-        </span>
+        </p>
         <div>
           <span>
             <a
-              href="linaebe0@gmail.com"
+              href="mailto:linaebe0@gmail.com"
               aria-label="linaebe0@gmail.com"
               title="Email"
+              target="_blank"
               rel="noreferrer"
             >
               <i class="fas fa-envelope"></i>
