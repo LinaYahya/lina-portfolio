@@ -1,11 +1,11 @@
 import React from "react"
 import PropTypes from "prop-types"
-import {Link} from 'gatsby'
+import { Link } from "gatsby"
 import projects from "../data/projects"
 import "./project.css"
 
 function ProjectList({ more }) {
-  let list = more ? projects.slice(0,2) : projects;
+  let list = more ? projects.slice(0, 2) : projects
 
   return (
     <div className="projectPage">
@@ -19,14 +19,14 @@ function ProjectList({ more }) {
                 <h4>{description}</h4>
                 {technologies?.map(e => (
                   <span key={e}>{e}</span>
-                  ))}
-                <span style={{color:'var(--textLink)'}}>{year}</span>
+                ))}
+                <span style={{ color: "var(--textLink)" }}>{year}</span>
               </div>
-              <div style={{ marginTop: "10%" }}>
-                <a href={github} target="blank">
+              <div style={{ marginTop: "10%", marginLeft: "5%" }}>
+                <a href={github} target="blank" title="Github repo">
                   <i class="fab fa-github"></i>
                 </a>
-                <a href={demo} target="blank">
+                <a href={demo} target="blank" title="Live Demo">
                   <i class="fas fa-link"></i>
                 </a>
               </div>
@@ -34,7 +34,11 @@ function ProjectList({ more }) {
           )
         )}
       </ul>
-      {more && <Link style={{marginLeft: '5%'}} to="/project">more ...</Link>}
+      {more && (
+        <Link style={{ marginLeft: "5%" }} to="/project">
+          more ...
+        </Link>
+      )}
     </div>
   )
 }
