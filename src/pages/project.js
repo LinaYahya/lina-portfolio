@@ -7,7 +7,7 @@ import ProjectLists from "../components/projectLists"
 const ProjectPage = () => (
   <Layout>
     <SEO title="Project" />
-    <div style={{ margin: "10% auto", width: "85%" }}>
+    <div className="projectSec" style={{ margin: "10% auto", width: "85%" }}>
       <h2 style={{ width: "60%",  marginLeft: "5%" }}>
         This projects I made during a coding bootcamp, Every project a unique
         experience with differient technologies, Even project scale Is small,

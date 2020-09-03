@@ -1,24 +1,35 @@
-.projectPage{
+.projectPage {
   width: 90%;
   margin: 5% auto;
-
 }
-.project-list{
+.project-list {
   list-style: none;
 }
-.project{
+.project {
   border-bottom: 0.5px solid rgba(179, 184, 184, 0.795);
   padding: 15px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 80%;
-
 }
-.project:hover{
+.project:hover {
   transform: scale(1.05);
   background-color: var(--hover);
 }
-.project a, .project div span{
+.project a,
+.project div span {
   padding: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .projectPage {
+    width: 100%;
+  }
+  .project-list {
+    width: 100%;
+  }
+  .project {
+    width: 100%;
+  }
 }
