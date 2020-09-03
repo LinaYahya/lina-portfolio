@@ -50,4 +50,7 @@ i:hover {
    .projectSec{
      margin-left: 10px;
    }
+   .projectSec h2{
+     width: 100% !important;
+   }
   }

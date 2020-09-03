@@ -2,8 +2,8 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Technologies from "../components/technologies"
-import ProjectLists from "../components/projectLists"
-import "./home.css"
+import ProjectLists from "../components/projectList"
+import "../styles/home.css"
 import { Avatar } from "../components/image"
 
 const IndexPage = () => (

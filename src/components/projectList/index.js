@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
-import projects from "../data/projects"
+import projects from "../../data/projects"
 import "./project.css"
 
 function ProjectList({ more }) {
@@ -24,10 +24,10 @@ function ProjectList({ more }) {
               </div>
               <div style={{ marginTop: "10%", marginLeft: "5%" }}>
                 <a href={github} target="blank" title="Github repo">
-                  <i class="fab fa-github"></i>
+                  <i className="fab fa-github"></i>
                 </a>
                 <a href={demo} target="blank" title="Live Demo">
-                  <i class="fas fa-link"></i>
+                  <i className="fas fa-link"></i>
                 </a>
               </div>
             </li>
