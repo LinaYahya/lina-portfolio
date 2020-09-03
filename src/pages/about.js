@@ -9,12 +9,16 @@ const AboutPage = () => (
     <div style={{ margin: "10% 10%", width: "60%" }}>
       <h2>About Lina</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem illo
-        quaerat ad, mollitia repellat maxime impedit inventore voluptas
-        assumenda perspiciatis omnis libero blanditiis nobis sapiente aut vitae
-        dicta perferendis labore ipsum excepturi veritatis nam? Autem,
-        laboriosam vitae maiores perspiciatis officiis, rem modi accusantium
-        alias, explicabo quam debitis optio reiciendis incidunt.
+        Even after being told he can write this in third person, the thought of
+        describing himself in a bio gives him an anxiety that's rivaled by
+        little else. So, instead, here's a quick list of clients he's worked
+        with that'll probably be more useful to you than an overly wordy and
+        adjective heavy paragraph would be. Adidas, Sport Chek, BMW, BMO,
+        Tangerine, Canadian Tire, Future Shop, Ford, Volvo, National Art Centre
+        Orchestra, Shoppers Drug Mart, Canadian Cancer Society, LEX Records, The
+        Guardian Weekend Magazine, Sportsnet Magazine, Report on Business
+        Magazine, The Grid, Marketing Magazine, Canadian Business Magazine,
+        Precedent Magazine, and many others.
       </p>
       <h2>What differ Lina</h2>
       <p>
